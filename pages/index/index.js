@@ -119,7 +119,7 @@ Page({
     })
   },
   onTapLocation(){
-      this.getCityAndWeather()
+    this.getCityAndWeather()
   },
   getCityAndWeather() {
     wx.getLocation({
